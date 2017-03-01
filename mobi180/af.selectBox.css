@@ -1,0 +1,87 @@
+#afModalMask {
+  position:absolute;
+  top:0px;
+  left:0px;
+  display:none;
+  width:100%;
+  height:100%;
+  background:transparent;
+  z-index:9999;
+}
+#afSelectBoxContainer {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  overflow:hidden;
+  display:block;
+  width:90%;
+  max-width:280px;
+  min-height:100px;
+  max-height:300px;
+  color:white;
+  margin-top: -150px;
+  margin-right:auto;
+  margin-left: -138px;
+  background:#303030;
+  z-index:9999;
+}
+#afSelectBoxfix ul {
+  list-style-type:none;
+  padding:0px;
+  margin:0px;
+}
+#afSelectBoxfix li {
+  display: block;
+  font-size: 1.1em;
+  color: #fff;
+  line-height: 2.5em;
+  padding: 0 1em;
+  border-bottom: 1px solid #444;
+}
+#afSelectBoxfix .selected { background:#33B5E5;}
+.afFakeSelect {
+  position:relative;
+  float:left;
+  display:inline-block;
+  width:30%;
+  height:30px;
+  line-height:2em;
+  font-size:1em;
+  padding-left:10px;
+  background-color:#fff;
+  border:1px solid #ccc;
+  border-radius:0;
+}
+.afFakeSelect:after {
+  content:'';
+  position:absolute;
+  top: 10px;
+  right:5px;
+  border: 10px solid transparent;
+  border-top-color: #ccc;
+}
+#afSelectBoxContainer #afSelectDone,#afSelectBoxContainer #afSelectCancel{
+  float: left;
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 2em;
+  margin-top:10px;
+  margin-left: 10px;
+  background:#33B5E5;
+  border: 1px solid #33B5E5;
+}
+  #afSelectBoxContainer #afSelectCancel {
+  float:right;
+  margin-right:10px;
+}
+  #afSelectBoxContainer #afSelectClose {
+  overflow: hidden;
+  padding-bottom:5px;
+  border-bottom: 1px solid #444;
+}
+select:disabled~.afFakeSelect {
+  background:#ccc;
+  color:black;
+}

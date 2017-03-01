@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.dtd">
+<wml>
+<head>
+<meta http-equiv="Cache-Control" content="max-age=0" />
+</head>
+<card id="mCard" title="我的网站名称">
+<p>
+<a href="/wap/"><img src="/wap/templates/images/logo.png" width="200" /></a><br /><a href="/wap/index.asp?msv=0&amp;lanid=1">网站首页</a><br /><a href="/wap/ilists.asp?menuid=2&amp;msv=0&amp;lanid=1">拓展课程</a><br /><a href="/wap/ilists.asp?menuid=3&amp;msv=0&amp;lanid=1">拓展基地</a><br /><a href="/wap/views.asp?menuid=33&amp;id=19&amp;msv=0&amp;lanid=1">专业配备</a><br /><a href="/wap/ilists.asp?menuid=34&amp;msv=0&amp;lanid=1">经典案例</a><br /><a href="/wap/views.asp?menuid=35&amp;id=20&amp;msv=0&amp;lanid=1">拓展路线</a><br /><a href="/wap/views.asp?menuid=36&amp;id=21&amp;msv=0&amp;lanid=1">加入我们</a><br /><a href="/wap/ilists.asp?menuid=4&amp;msv=0&amp;lanid=1">招聘中心</a><br /><a href="/wap/ilists.asp?menuid=7&amp;msv=0&amp;lanid=1">客户留言</a><br /><a href="/wap/ilists.asp?menuid=8&amp;msv=0&amp;lanid=1">友情链接</a><br /><a href="/wap/ilists.asp?menuid=11&amp;msv=0&amp;lanid=1">网站地图</a><br /><a href="/wap/ilists.asp?menuid=5&amp;msv=0&amp;lanid=1">下载中心</a><br /><a href="/wap/ilists.asp?menuid=6&amp;msv=0&amp;lanid=1">视频中心</a><br /><a href="/wap/ilists.asp?menuid=10&amp;msv=0&amp;lanid=1">在线调查</a><br /><a href="/wap/ilists.asp?menuid=22&amp;msv=0&amp;lanid=1">RSS订阅中心</a><br /><a href="/wap/ilists.asp?menuid=23&amp;msv=0&amp;lanid=1">用户中心</a><br />　<a href="/wap/ilists.asp?menuid=24&amp;msv=0&amp;lanid=1">用户注册</a><br />　<a href="/wap/ilists.asp?menuid=25&amp;msv=0&amp;lanid=1">修改资料</a><br />　<a href="/wap/ilists.asp?menuid=26&amp;msv=0&amp;lanid=1">找回密码</a><br />　<a href="/wap/ilists.asp?menuid=27&amp;msv=0&amp;lanid=1">我的购物车</a><br />　<a href="/wap/ilists.asp?menuid=28&amp;msv=0&amp;lanid=1">我的订单</a><br /><a href="/wap/ilists.asp?menuid=31&amp;msv=0&amp;lanid=1">购物中心</a><br />
+<br />
+<anchor> 返回上一页 <prev /></anchor>
+<br />普通版 | <a href="?msv=1&amp;menuid=0&amp;sortid=0&amp;id=0">3G版</a><br />
+<a href="/wap/index.asp?msv=0">返回首页</a> - <a href="/wap/sitemap.asp?msv=0">导航</a> - <a href="/wap/search.asp?msv=0&amp;menuid=0&amp;sortid=0">搜索</a> - <a href="/wap/goto.asp?mikey=gbook&amp;msv=0">留言</a>
+<br /><br /></p>
+</card>
+</wml>

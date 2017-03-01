@@ -1,0 +1,141 @@
+/*ÆÀÂÛÁÐ±í*/
+.comment-list{padding-top:10px;}
+.comment-list dl {
+    position: relative;
+    line-height: 2em;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+    color: #aeaeae;
+}
+
+    .comment-list dl.u {
+        margin: 10px 0px 20px 40px;
+    }
+
+    .comment-list dl.m {
+        margin: 10px 40px 20px 0px;
+    }
+
+    .comment-list dl:before, .comment-list dl::after {
+        content: "";
+        display: block;
+        position: absolute;
+    }
+
+    .comment-list dl:before {
+        top: 0px;
+        width: 30px;
+        height: 30px;
+        background-size: 30px;
+    }
+
+    .comment-list dl.u:before {
+        left: -40px;
+        background-image: url(gbook-list-userl.png)/*tpa=http://mobi180.no1.35nic.com/wap/templates/default/panel/comment/images/gbook-list-userl.png*/;
+    }
+
+    .comment-list dl.m:before {
+        right: -40px;
+        background-image: url(gbook-list-userr.png)/*tpa=http://mobi180.no1.35nic.com/wap/templates/default/panel/comment/images/gbook-list-userr.png*/;
+    }
+
+    .comment-list dl:after {
+        top: 10px;
+        width: 10px;
+        height: 10px;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: inherit;
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: inherit;
+        background-color: inherit;
+    }
+
+    .comment-list dl.u:after {
+        left: -6px;
+        -webkit-transform: rotate(-45deg);
+    }
+
+    .comment-list dl.m:after {
+        right: -6px;
+        -webkit-transform: rotate(135deg);
+    }
+
+    .comment-list dl.u dt {
+        color: #7f9b3f;
+    }
+
+    .comment-list dl.m dt {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: inherit;
+    }
+
+.comment-list dl.u time {
+    float: right;
+    color: #aeaeae;
+}
+
+.comment-list dd {
+    overflow: hidden;
+    margin: 0px;
+}
+.comment .for {
+    margin-bottom:10px;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    overflow: hidden;
+}
+    .comment .for textarea {
+        border: 0px;
+        width: 100%;
+        padding: 10px;
+        background-color: transparent;
+    }
+
+    .comment .for > div {
+        border-top: 1px solid #e7e7e7;
+        height: 31px;
+        background-color: #ededed;
+        background-image: -webkit-linear-gradient(#ffffff, #ededed);
+        background-image: -moz-linear-gradient(#ffffff, #ededed);
+        background-image: -ms-linear-gradient(#ffffff, #ededed);
+        background-image: -o-linear-gradient(#ffffff, #ededed);
+        background-image: linear-gradient(#ffffff, #ededed);
+    }
+
+    .comment .for .username {
+        float:left;
+        border: 0px;
+        height: 30px;
+        padding-left: 10px;
+        width: 75%;
+        background-color: transparent;
+    }
+
+    .comment .for .btn {
+        display: inline-block;
+        float: right;
+        border-left: 1px solid #e7e7e7;
+        width: 25%;
+        line-height: 30px;
+        background-color: #d9d9d9;
+        background-image: -webkit-linear-gradient(#ffffff, #d9d9d9);
+        background-image: -moz-linear-gradient(#ffffff, #d9d9d9);
+        background-image: -ms-linear-gradient(#ffffff, #d9d9d9);
+        background-image: -o-linear-gradient(#ffffff, #d9d9d9);
+        background-image: linear-gradient(#ffffff, #d9d9d9);
+        text-align: center;
+    }
+
+.comment .title {
+    border-bottom: 1px solid #e7e7e7;
+    line-height: 2.5em;
+}
+
+    .comment .title > .all {
+        float: right;
+    }

@@ -1,0 +1,78 @@
+/** iOS 7 theme */
+
+
+
+#afui #navbar {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 49px;
+	background: #dd5b22;
+
+}
+
+
+    #afui #navbar > *>*, #afui #navbar > a, #afui #navbar > span{
+        position: relative;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        display: inline-block;
+        float: left;
+        width: 20%;
+        height: 100%;
+        font-weight: normal;
+        color: #fff;
+        text-align: center;
+        -webkit-backface-visibility: hidden;
+        -webkit-perspective: 1000;
+        font-size: 12px;
+        line-height: 75px;
+        background-position:top center;
+        background-repeat:no-repeat;
+        background-size:30px;
+    }
+
+    #afui #navbar  span > span {
+        display: none;
+        position: absolute;
+        bottom: 101%;
+        left: 0;
+        right: 0;
+        z-index: 1001;
+        line-height: 3em;
+    }
+
+    #afui #navbar  .on > span {
+        display: block;
+    }
+    #afui #navbar  span a {
+        display: block;
+        width:100%;
+        background-image:none;
+        color:#ffffff;
+    }
+
+    #afui #navbar .icon:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+#navbar a:before {
+    background-position: center 5px;
+    background-size: 28px;
+}
+
+#afui #navbar .pressed,#afui #navbar .activate {
+    background-color: #be4916;
+}
+
+
+#afui #navbar .icon.pressed:before {
+    color: inherit;
+}
+

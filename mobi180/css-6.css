@@ -1,0 +1,59 @@
+/*ÏêÏ¸Ò³Ãæ»»Ò³*/
+.feedDetails {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+
+}
+
+    .feedDetails > * {
+        display: block;
+        position: relative;
+        margin: 10px 5%;
+        border: 1px solid #d7d7d7;
+        border-radius: 3px;
+        width: 40%;
+        background-color:#f2f0ec;
+        line-height: 2.5em;
+    }
+
+        .feedDetails > *::after {
+            content: "";
+            position: absolute;
+
+            top: 50%;
+            margin-top: -10px;
+            border-color: transparent #9c9595;
+            border-style: solid;
+        }
+
+
+      
+
+    .feedDetails .prev {
+        float: left;
+        text-indent:5%;
+    }
+
+        .feedDetails .prev::after {
+            left:20%;
+            border-width: 10px 10px 10px 0px;
+        }
+
+    .feedDetails .next {
+        float: right;
+         text-indent:-5%;
+    }
+
+
+        .feedDetails .next::after {
+            right:20%;
+              border-width: 10px 0px 10px 10px;
+        }
+
+
+          .feedDetails > *.pressed {
+            color:#42a5f5;
+        }    .feedDetails > *.pressed::after  {
+             border-color: transparent #42a5f5;
+        }

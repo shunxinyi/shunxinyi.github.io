@@ -1,0 +1,399 @@
+/*留言*/
+
+.panel {
+    background-image: url(bg-gbook.jpg)/*tpa=http://mobi180.no1.35nic.com/wap/templates/default/panel/gbook/images/bg-gbook.jpg*/;
+}
+.lists.gbook .title {
+    display: inline-block;
+    margin: 10px 0px;
+    padding: 0px 10px 0px 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #7f9b3f;
+    color: #ffffff;
+    line-height: 2.2em;
+}
+.lists.gbook .title:before {
+    content: "+";
+}
+.gbookFrmBox {
+    padding-top: 15px;
+    background-image: url(bg-gbook-top.jpg)/*tpa=http://mobi180.no1.35nic.com/wap/templates/default/panel/gbook/images/bg-gbook-top.jpg*/;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.gbookFrmBox .topimg img {
+    width: 100%;
+    display: block;
+}
+.lists.gbook .adbd {
+    border-bottom: 1px solid #7f9b3f;
+    clear: both;
+}
+.lists.gbook .radioBox, .lists.gbook .checkboxBox {
+    display: inline-block;
+    width: 66%;
+    float: left;
+}
+.gbookbtn {
+    display: block;
+    margin: 20px 0px;
+    border-radius: 5px;
+    background-color: #7f9b3f;
+    color: #ffffff;
+    line-height: 3em;
+    text-align: center;
+}
+/*留言表单*/
+
+#afui select,
+#afui textarea,
+#afui input[type="text"],
+#afui input[type=search],
+#afui input[type="password"],
+#afui input[type="datetime"],
+#afui input[type="datetime-local"],
+#afui input[type="date"],
+#afui input[type="month"],
+#afui input[type="time"],
+#afui input[type="week"],
+#afui input[type="number"],
+#afui input[type="email"],
+#afui input[type="url"],
+#afui input[type="tel"],
+#afui input[type="color"],
+#afui .input-group {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+}
+
+#afui form {
+    position: relative;
+}
+
+#afui input[type="radio"],
+#afui input[type="checkbox"] {
+    display: none;
+}
+
+    #afui input[type="radio"] + label,
+    #afui input[type="checkbox"] + label {
+        display: inline-block;
+        width: auto;
+        margin-left: 30px;
+        position: relative;
+        text-align: left;
+    }
+
+    #afui input[type="radio"]:not(.toggle) + label:before {
+        background-color: #fafafa;
+        border: 1px solid #cacece;
+        border-radius: 50px;
+        display: block;
+        position: absolute;
+        width: 1.3em;
+        height: 1.3em;
+        content: '';
+        margin-right: 5px;
+        top: 8px;
+        margin-left: -25px;
+    }
+
+    #afui input[type="radio"]:checked + label:before {
+        background-color: #7f9b3f;
+    }
+
+    #afui input[type="checkbox"] + label:before {
+        background-color: #fafafa;
+        border: 1px solid #cacece;
+        border-radius: 3px;
+        display: block;
+        position: absolute;
+        top: 8px;
+        left: -25px;
+        width: 1.3em;
+        height: 1.3em;
+        content: " ";
+        color: #7f9b3f;
+    }
+
+    #afui input[type="checkbox"]:checked + label:before {
+        content: '\00a0\2714';
+        padding: 0px;
+        display: inline-block;
+        line-height: 20px;
+    }
+
+    #afui input[type="radio"]:after,
+    #afui input[type="checkbox"]:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+
+#afui input[type="search"] {
+    border-radius: 20px;
+}
+
+#afui label {
+    float: left;
+    width: 27%;
+    white-space: nowrap;
+    color: #aeaeae;
+    padding:0px 6px;
+    line-height: 40px;
+}
+
+    #afui label + select,
+    #afui label + input[type="radio"],
+    #afui label + input[type="checkbox"] label + textarea,
+    #afui label + input[type="text"],
+    #afui label + input[type=search],
+    #afui label + input[type="password"],
+    #afui label + input[type="datetime"],
+    #afui label + input[type="datetime-local"],
+    #afui label + input[type="date"],
+    #afui label + input[type="month"],
+    #afui label + input[type="time"],
+    #afui label + input[type="week"],
+    #afui label + input[type="number"],
+    #afui label + input[type="email"],
+    #afui label + input[type="url"],
+    #afui label + input[type="tel"],
+    #afui label + input[type="color"],
+    #afui label + textarea {
+        width: 66%;
+    }
+
+#afui textarea {
+    height: auto;
+}
+
+#afui .input-group {
+    width: auto;
+    height: auto;
+    padding: 12px;
+    overflow: hidden;
+}
+
+    #afui .input-group input:not([type='button']):not([type='submit']),
+    #afui .input-group textarea,
+    #afui .input-group select {
+        margin-bottom: 0;
+        background-color: transparent;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+        #afui .input-group input:not([type="submit"]):not([type="button"]):last-child,
+        #afui .input-group textarea:last-child,
+        #afui .input-group select:last-child {
+            border-bottom: none;
+        }
+
+    #afui .input-group input[type=button],
+    #afui .input-group input[type=submit] {
+        margin: 5px;
+    }
+
+#afui input.toggle + label:before,
+#afui input.toggle:checked + label:before {
+    content: attr(data-on);
+    position: absolute;
+    color: #fff;
+    left: 5px;
+    width: 42px;
+    text-align: left;
+    z-index: 3;
+    top: 3px;
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    text-transform: uppercase;
+    display: none;
+}
+
+#afui input.toggle:checked + label:before {
+    display: block;
+}
+
+#afui input.toggle + label:after {
+    content: attr(data-off);
+    position: absolute;
+    color: #505050;
+    width: 42px;
+    text-align: left;
+    z-index: 1;
+    top: 2px;
+    left: 30px;
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+
+#afui input.toggle:checked + label:after {
+    display: none;
+}
+
+#afui input[type="radio"].toggle:checked + label:before {
+    line-height: 1.2em;
+}
+
+#afui input.toggle + label {
+    position: relative;
+    margin: 5px;
+    border-radius: 50px;
+    display: block;
+    height: 24px;
+    width: 65px;
+    border: 1px solid #ccc;
+    left: 33%;
+    float: none;
+}
+
+#afui input.toggle:checked + label {
+    background: #1eb0e9;
+    line-height: -1em;
+}
+
+#afui input.toggle + label > span {
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: #ccc;
+    border-radius: 50px;
+    z-index: 5;
+    top: -2px;
+    left: 0px;
+    position: absolute;
+    transition: transform 100ms linear;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 100ms linear;
+}
+
+#afui input.toggle:checked + label > span {
+    transform: translate3d(37px, 0, 0);
+    -webkit-transform: translate3d(37px, 0, 0);
+}
+
+#afui .formGroupHead {
+    font-size: 18px;
+    font-weight: bold;
+    color: inherit;
+    margin: 16px 0 8px;
+}
+
+
+#afui input[type=button],
+#afui input[type=submit], #afui button {
+    font-size: inherit;
+}
+
+#afui select {
+    background-image: url(iconfont-xiajiantou.svg)/*tpa=http://mobi180.no1.35nic.com/wap/templates/default/panel/gbook/images/iconfont-xiajiantou.svg*/;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 11px;
+    color: #aeaeae;
+}
+
+
+
+/*留言列表*/
+.gbook-list dl {
+    position: relative;
+    line-height: 2em;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+    color: #aeaeae;
+}
+
+    .gbook-list dl.u {
+        margin: 10px 10px 20px 50px;
+    }
+
+    .gbook-list dl.m {
+        margin: 10px 50px 20px 10px;
+    }
+
+    .gbook-list dl:before, .gbook-list dl::after {
+        content: "";
+        display: block;
+        position: absolute;
+    }
+
+    .gbook-list dl:before {
+        top: 0px;
+        width: 30px;
+        height: 30px;
+        background-size: 30px;
+    }
+
+    .gbook-list dl.u:before {
+        left: -40px;
+        background-image: url(gbook-list-userl-1.png)/*tpa=http://mobi180.no1.35nic.com/wap/templates/default/panel/gbook/images/gbook-list-userl.png*/;
+    }
+
+    .gbook-list dl.m:before {
+        right: -40px;
+        background-image: url(gbook-list-userr-1.png)/*tpa=http://mobi180.no1.35nic.com/wap/templates/default/panel/gbook/images/gbook-list-userr.png*/;
+    }
+
+    .gbook-list dl:after {
+        top: 10px;
+        width: 10px;
+        height: 10px;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: inherit;
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: inherit;
+        background-color: inherit;
+    }
+
+    .gbook-list dl.u:after {
+        left: -6px;
+        -webkit-transform: rotate(-45deg);
+    }
+
+    .gbook-list dl.m:after {
+        right: -6px;
+        -webkit-transform: rotate(135deg);
+    }
+
+    .gbook-list dl.u dt {
+        color: #7f9b3f;
+    }
+
+    .gbook-list dl.m dt {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: inherit;
+    }
+
+.gbook-list dl.u time {
+    float: right;
+    color: #aeaeae;
+}
+
+.gbook-list dd {
+    overflow: hidden;
+    margin: 0px;
+}
